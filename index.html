@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>html table</title>
+</head>
+<body>
+    <div class="adminMailerWrap">
+        <table border="1" width="600" align="center" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+            <tbody>
+                <tr>
+                    <th>
+                        <a href="#">
+                            html table
+                        </a>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script>
+        window.onload = async () => {
+            const results = await fetch("https://github.com/JEEVAN8899/hello_world/blob/main/test.json").then((result)=>{
+                console.log(result)
+            }).catch((error)=>{{
+                console.log(error.message);
+        }})
+        }
+    </script>
+</body>
+</html>
